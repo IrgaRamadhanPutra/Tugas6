@@ -36,6 +36,9 @@ LOAD DATA INFILE ‘Nama_backup_file’ INTO TABLE nama_table ;
 ![image](https://user-images.githubusercontent.com/101645216/170994707-ed5bde88-54cc-4b02-8ccb-5eea7ae3a0b4.png)
 
 
+![image](https://user-images.githubusercontent.com/101645216/171398353-2744b7de-96f2-4890-8da1-d950f88955a5.png)
+
+
 ![image](https://user-images.githubusercontent.com/101645216/170995424-842b12cb-3cd1-434f-9bb9-85e01895f55a.png)
 
 -  Lakukan proses backup dan recovery dengan sqldump dari database tugas seblumnya !
@@ -50,4 +53,4 @@ LOAD DATA INFILE ‘Nama_backup_file’ INTO TABLE nama_table ;
 
 crontab –e
 
-**12*7myqldump -u root -p irga_312010067>irga_312010067_backup.sql
+00**7myqldump -u root -p irga_312010067>irga_312010067_backup.sql
